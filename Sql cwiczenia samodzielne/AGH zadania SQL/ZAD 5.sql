@@ -1,0 +1,10 @@
+DROP DATABASE test;
+DROP TABLE samochody;
+USE populacja;
+DROP VIEW widok;
+USE biblioteka;
+SELECT * FROM student;
+DELETE FROM student WHERE id_student = 5;
+USE magazyn;
+TRUNCATE table towar;
+SELECT * from towar;
